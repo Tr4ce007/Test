@@ -1,6 +1,4 @@
-This is version 1 of my project.
-I want to commit 2.
-
+git clone web_url folder_name		//If folder name is given it will clone in this folder else default folder name
 
 git status					//Check if git is initialised or its status
 
@@ -14,3 +12,32 @@ git log					//Show all the commit history
 
 rm -rf .git					//To remove git 
 
+git diff					//Differences between staged and current changes
+
+git diff --staged				//Difference between staged and last commit
+
+git commit -a -m "Commit message"		//Stages and Commits
+
+git rm file_name				//Delete the file and stages the changes
+
+git mv file_tobe_renamed file_new_name	//Renaming the file and stages the  changes
+
+git rm --cached file_name			//Removing a tracked file gitignore will not work for tracked file
+
+git log -p -X				// -X is optional, X=any int to view specified no. of diff in log
+
+git log --stat				//Simple view of differences
+
+git log --pretty=oneline			//All commit messages in oneline (oneline/short/full)
+
+git log --since=X.days			//Shows log of X days (days/weeks/months/years)
+
+git log --pretty=format:"%h -- %an"		//	???<3
+
+git commit --amend				//Amend in a file
+
+git restore --staged file_name			//Unstage a file
+
+git checkout -- file_name			//Restores the file to last commit
+
+git checkout -f				//Restores all files to last commit
