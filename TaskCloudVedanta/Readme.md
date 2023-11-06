@@ -140,5 +140,5 @@ const a = [1,2,3,4,5];
 ```
 
 # HTML Task
-- [Basic Calculator](https://google.com)
-- [Basic Survey Form](https://google.com)
+- [Basic Calculator]([https://google.com](https://github.com/Tr4ce007/Test/tree/master/TaskCloudVedanta/BasicCalculator)https://github.com/Tr4ce007/Test/tree/master/TaskCloudVedanta/BasicCalculator)
+- [Basic Survey Form]([https://google.com](https://github.com/Tr4ce007/Test/tree/master/TaskCloudVedanta/SurveyForm)https://github.com/Tr4ce007/Test/tree/master/TaskCloudVedanta/SurveyForm)
