@@ -1,0 +1,86 @@
+body {
+    font-family: Poppins;
+    background: #5C258D;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4389A2, #5C258D);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4389A2, #5C258D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+
+  }
+  
+  .container {
+    width: 800px;
+    margin: 0 auto;
+   
+    padding: 20px;
+    background-color:#ffffffa6;
+  }
+  .container h1{
+    text-align: center;
+    align-items: center;
+  }
+  
+  .form-group {
+    padding-bottom: 15px;
+
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    width:80%;
+  }
+  label{
+    width: 100%;
+    vertical-align: center;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 5px;
+  }
+  
+  .btn {
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center
+    ;
+   
+  }
+  
+  .btn-primary {
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #000;
+    align-items: center;
+  }
+  
+  .success, .success:focus{
+    border: 2px solid lightgreen;
+    border-radius: 5px;
+    padding: 20px;
+    outline: none;
+    width: 100%;
+  }
+  .fail, fail:focus{
+    border:2px solid red;
+    outline: none;
+    padding: 20px;
+    border-radius: 5px;
+    width: 100%;
+  }
+
+  .fa-eye {
+    cursor: pointer;
+    align-items: right;
+  }
+
+  .error-message {
+    color: red;
+  }
+
+  
